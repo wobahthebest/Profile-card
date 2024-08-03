@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: arial, sans-serif;
+                color: hsl(0, 0%, 50%);
+            }
+            .mother {
+                width: 100%;
+                min-height: 100vh;
+                background: linear-gradient(135deg, #ea8d8d, #a890fe);
+                padding: 100px;
+            }
+
+            .baby {
+                width: 100%;
+                max-width: 540px;
+                margin: 100px auto 20px;
+                background-color: white;
+                border-radius: 30px;
+                padding: 40px 30px 70px;
+                position: relative;
+                box-shadow: 0 0 30px hsl(0, 0%, 60%);
+            }
+
+            .sec-1 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .p-2 {
+                color: hsl(0, 0%, 50%);
+                background-color: hsl(0, 0%, 95%);
+                padding: 15px 50px;
+                border-radius: 10px;
+                font-size: 18px;
+            }
+
+            .p-2 i {
+                color: #a890fe;
+            }
+
+            .sec-1 img {
+                width: 150px;
+                height: auto;
+                position: absolute;
+                right: 220px;
+                top: -50.5px;
+                border-radius: 30px;
+                border: 5px solid #ffffff;
+                transition: 0.3s all ease;
+            }
+
+            .sec-1 img:hover {
+                border:#a890fe 5px solid ;
+           
+            }
+
+            .p-1 {
+                font-size: 15px;
+                color: hsl(0, 0%, 50%);
+                text-align: center;
+                padding: 15px 0;
+            }
+
+            .h1,
+            .h2 {
+                text-align: center;
+                padding: 5px;
+            }
+
+            .h1 {
+                padding-top: 20px;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .h1 i {
+                color: blue;
+                font-size: 25px;
+            }
+
+            .h2 {
+                font-size: 19px;
+            }
+
+            .sec-2 {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .sec-2 i {
+                font-size: 30px;
+                padding: 15px;
+                background-color: hsl(0, 0%, 95%);
+                border-radius: 10px;
+                font-weight: 600;
+                margin: 30px auto;
+                transition: 0.4s all ease;
+            }
+
+            .sec-2 i:hover {
+                color: #a890fe;
+                background-color: hsl(253, 98%, 95%);
+                cursor: pointer;
+            }
+
+            .police {
+                padding: 0 10px;
+            }
+
+            .buttons {
+                height: 50px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid hsl(0, 0%, 95%);
+                border-radius: 10px;
+                box-shadow: 0 0 30px hsl(0, 0%, 97%);
+            }
+
+            .inside {
+                text-align: center;
+                font-size: 17px;
+            }
+
+            .p-3 {
+                padding: 30px 0 15px;
+                font-size: 15px;
+            }
+
+            .p-5 {
+                padding: 15px 10px;
+                background-color: hsl(0, 0%, 95%);
+                border-radius: 10px;
+                border: 0.5px solid hsl(0, 0%, 90%);
+                margin: 20px 0 25px;
+            }
+
+            .bt-1 {
+                padding: 20px 0px;
+                width: 100%;
+                font-size: 21px;
+                font-weight: 700;
+                color: white;
+                background-color: #a890fe;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                border: #a890fe 3px solid;
+                transition: all 0.4s ease;
+            }
+
+            .bt-1:hover {
+                color: #a890fe;
+                background-color: hsl(253, 98%, 95%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mother">
+            <div class="baby">
+                <div class="police">
+                    <div class="sec-1">
+                        <div>
+                            <p class="p-2"><i class="bx bx-book"></i> 1760</p>
+                            <p class="p-1">Students</p>
+                        </div>
+                        <div>
+                            <p class="p-2">
+                                <i class="bx bx-dollar-circle"></i> 149$
+                            </p>
+                            <p class="p-1">Hourly Rate</p>
+                        </div>
+                        <img src="./images/Без названия.jpg" alt="" />
+                    </div>
+
+                    <p class="h1">
+                        <i class="bx bxs-badge-check"></i> Holmuhamedov
+                        Shohjahon
+                    </p>
+                    <p class="h2">Frontend/Fullstck developer</p>
+
+                    <div class="sec-2"></div>
+
+                    <div class="sec-2">
+                        <i class="bx bxl-github"></i>
+                        <i class="bx bxl-linkedin-square"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-youtube"></i>
+                        <i class="bx bxl-discord-alt"></i>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="inside">About me</div>
+                        <div class="inside">Skills</div>
+                        <div class="inside">Reviews</div>
+                    </div>
+
+                    <p class="p-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad minus voluptates aperiam, aliquam expedita
+                        cupiditate, odio consectetur voluptatem blanditiis
+                        officia animi! Officiis et repudiandae fuga. Magnam id
+                        nihil ratione accusantium! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Alias corporis tempora
+                        nihil saepe officia magnam repellendus velit, inventore
+                        molestias praesentium quod ut necessitatibus blanditiis
+                        voluptatibus culpa natus suscipit dolores totam!
+                    </p>
+                    <h2>I can help with🤝</h2>
+
+                    <p class="p-5">Career roadmap and advice</p>
+                    <button class="bt-1">Book Mentorin</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
